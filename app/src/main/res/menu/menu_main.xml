@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res_auto" >
+    
+   <!--  <item 
+        android:title="Opción 1"
+        android:id="@+id/menuOpcion1" />
+    
+	<item 
+        android:title="Opción 2"
+        android:id="@+id/menuOpcion2"
+        android:icon="@drawable/ic_action_person" />
+	
+	 Este siempre se muestra en el Action Bar 
+	<item 
+        android:title="Opción 3"
+        android:id="@+id/menuOpcion3"
+        android:icon="@drawable/ic_action_person"
+        app:showAsAction="always" />
+	
+	 Este nunca se muestra en el Action Bar 
+	<item 
+	    android:title="Opción 4"
+	    android:id="@+id/menuOpcion4"
+	    android:icon="@drawable/ic_action_person"
+	    app:showAsAction="never"/>
+	
+	 Este se muestra sólo si hay espacio 
+	<item 
+	    android:title="Opción 5"
+	    android:id="@+id/menuOpcion5"
+	    android:icon="@drawable/ic_action_person"
+	    app:showAsAction="ifRoom"/>
+    -->
+</menu>

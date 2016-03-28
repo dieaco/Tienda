@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tienda</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_select_store">SelectStoreActivity</string>
+    <string name="title_activity_cause_detail">CauseDetailActivity</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+    <string name="title_activity_store">Store</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

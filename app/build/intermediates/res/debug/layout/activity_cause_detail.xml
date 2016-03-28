@@ -1,0 +1,270 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ciego.tienda">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/cause3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#88000000"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="2">
+
+                <ImageView
+                    android:id="@+id/ivShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/share_f" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#FFF"
+                    android:textSize="13sp"
+                    android:text="SHARE" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="4">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/clock" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFF"
+                        android:text="TIME REMAINING" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvDays"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 days"
+                    android:textSize="22sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#32B5E3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="4">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:src="@drawable/heart" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFF"
+                        android:text="PROGRESS" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvPorcentaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="73%"
+                    android:textSize="22sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#32B5E3"/>
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:id="@+id/ivFollow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/share_f"
+                    />
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFF"
+                    android:text="FOLLOW" />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUPPORTERS"/>
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FOLLOWERS"/>
+
+        <TextView
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCUMULATED SUPPORTS" />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="1dp"
+    android:weightSum="10">
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="68"
+            android:textColor="#32B5E3"
+            android:textSize="20sp"
+            android:id="@+id/textView1"/>
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="120"
+            android:textColor="#32B5E3"
+            android:textSize="20sp"
+            android:id="@+id/textView2"/>
+
+        <TextView
+            android:layout_weight="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$ 3,293"
+            android:textColor="#32B5E3"
+            android:textSize="20sp"
+            android:id="@+id/textView3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="1dp"
+        android:weightSum="10">
+
+        <com.ciego.tienda.views.RoundedImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/mattie_mccoy"/>
+
+        <com.ciego.tienda.views.RoundedImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/mattie_mccoy"/>
+
+        <com.ciego.tienda.views.RoundedImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/mattie_mccoy"/>
+
+        <com.ciego.tienda.views.RoundedImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/mattie_mccoy"/>
+
+        <com.ciego.tienda.views.RoundedImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="7dp"
+            android:src="@drawable/mattie_mccoy"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="DESCRIPTION"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Estos textos hacen parecerlo un español. Muchos paquetes aljdlajd slakd kajskj askjakd aSJALJ SAKSJDAS KASDJK SAHDJ SKDHAS AKSDJ KSJD KJS SAKJ DK SAJ DKJ AS"/>
+
+</LinearLayout><!-- From: file:/C:/Users/Ciego/AndroidStudioProjects/Tienda/app/src/main/res/layout/activity_cause_detail.xml -->
